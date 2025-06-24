@@ -57,7 +57,7 @@ Entry added successfully.
 
 ```
 --- Health Habit Entries ---
-Date: 2025-06-23
+Date: 2025-03-23
   Water: 80 oz
   Gym: Yes
   BP: 120/80
