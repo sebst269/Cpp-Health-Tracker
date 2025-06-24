@@ -87,6 +87,13 @@ int main() {
         std::cout << "\n1. Add Entry\n2. View Entries\n3. Exit\nChoose an option: ";
         std::cin >> choice;
 
+        // Validate input
+        while (!(std::cin >> choice) || choice < 1 || choice > 3) {
+            std::cin.clear(); // clear error flags
+            std::cin.ignore(10000, '\n'); // discard bad input
+            std::cout << "Invalid input. Choose 1, 2, or 3: ";
+    }
+
         switch (choice) {
             case 1:
                 addEntry(db);
