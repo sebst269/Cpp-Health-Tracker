@@ -1,6 +1,6 @@
 # Cpp-Health-Tracker
 
-A command-line C++ application for tracking daily health habits such as water intake, gym activity, and blood pressure.  
+A command-line C++ application for tracking daily health habits such as water intake, gym activity, and blood pressure.
 Entries are stored in a local SQLite database and can be viewed in reverse chronological order.
 
 ## Features
